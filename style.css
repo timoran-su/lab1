@@ -1,0 +1,52 @@
+html, body{
+    padding:0px;
+    margin:0px;
+}
+
+.header{
+    height: 60px;
+    padding: 20px;
+    background-color:#fcde60;
+    line-height: 60px;
+}
+
+h1{
+    float: left;
+    margin:0px;
+}
+
+ul{
+    float:right;
+    margin:0px;
+    padding:0px;
+    list-style-type: none;
+}
+
+ul li{
+    float: left;
+    margin-left:20px;
+}
+
+ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.content{
+    width:70%;
+    float:left;
+    background-color:#ddd;
+    min-height:500px;
+}
+
+.sidebar{
+    width:30%;
+    float:left;
+    background-color:#555;
+    color:#fff;
+    min-height:500px;
+}
+
+p{
+    margin:20px;
+}
